@@ -1,0 +1,86 @@
+File Index
+
+UBsfos.baf = .BCS Code Block for Lycanthropy Variable
+UBSFOS0.2DA = CLABstyle File
+UBSFOS1.CRE = Werewolf_Small Creature
+UBSFOS2.CRE = Werewolf_Greater Creature
+UBSFOS3.SPL = Actual Werewolf Transformation Spell
+UBSFOS4.SPL = Shapeshifts Natural Form Spell
+UBSFOS5.ITM = Lvl 1 Werewolf Claw
+UBSFOS6.ITM = Lvl 6 Werewolf Claw
+UBSFOS7.ITM = Lvl 12 Werewolf Claw
+UBSFOS8.ITM = Lvl 18 Werewolf Claw
+UBSFOS9.SPL = <50% HP Berserking Spell
+UBSFOSA.SPL =  Berserking for 1 Turn 
+UBSFOSD.SPL = Aktive turn Werewolf SPELL
+UBSFOSE.SPL = Attack Nearest Creature / Blood Frenzy
+UBSFOSF.SPL = Moon Dust gained on lvl 1
+UBSFOSG.SPL = Moon Melody gained on lvl 5
+UBSFOSI.SPL = AP_ Give Holy Symbol SPELL
+UBSFOSJ.ITM = Holy Symbol of Selûne
+UBSFOSK.BAM = Holy Symbol of Selûne Description Bam
+UBSFOSL.BAM = Holy Symbol of Selûne Paper Doll Bam
+UBSFOSM.BAM = Moon Dust Bam
+UBSFOSN.BAM = Moon Melody Bam
+UBSFOSOC.BAM = Moon Dust Book Bam
+UBSFOSPC.BAM = Moon Melody Book Bam
+
+Alpha_v2
+
+UBsfos.baf = .BCS Code Block for Lycanthropy Variable
+UBSFOS0.2DA = CLABstyle File
+UBSFOS1.CRE = Werewolf_Small Creature
+UBSFOS2.CRE = Werewolf_Greater Creature
+UBSFOS3.SPL = Actual Werewolf Transformation Spell
+UBSFOS4.SPL = Shapeshifts Natural Form Spell
+UBSFOS5.ITM = Lvl 1 Werewolf Claw
+UBSFOS6.ITM = Lvl 6 Werewolf Claw
+UBSFOS7.ITM = Lvl 12 Werewolf Claw
+UBSFOS8.ITM = Lvl 18 Werewolf Claw
+UBSFOS9.SPL = <50% HP Berserking Spell
+UBSFOSA.SPL =  Berserking for 1 Turn 
+UBSFOSB.SPL = AP_ 10% Chance to turn Werewolf SPELL
+UBSFOSC.SPL = 10% Chance to turn Werewolf SPELL
+UBSFOSD.SPL = Aktive turn Werewolf SPELL
+UBSFOSE.SPL = Attack Nearest Creature / Blood Frenzy
+UBSFOSF.SPL = Moon Dust gained on lvl 1
+UBSFOSG.SPL = Moon Melody gained on lvl 5
+UBSFOSH.SPL = AP_ Protection from UBSFOSC.SPL gain on lvl12
+UBSFOSI.SPL = AP_ Give Holy Symbol SPELL
+UBSFOSJ.ITM = Holy Symbol of Selûne
+UBSFOSK.BAM = Holy Symbol of Selûne Description Bam
+UBSFOSL.BAM = Holy Symbol of Selûne Paper Doll Bam
+UBSFOSM.BAM = Moon Dust Bam
+UBSFOSN.BAM = Moon Melody Bam
+UBSFOSOC.BAM = Moon Dust Book Bam
+UBSFOSPC.BAM = Moon Melody Book Bam
+
+Alpha_v1
+
+UBsfos.baf = .BCS Code Block for Lycanthropy Variable
+UBSFOS00.2DA = CLABstyle File
+UBSFOS01.CRE = Werewolf_Small Creature
+UBSFOS02.CRE = Werewolf_Greater Creature
+UBSFOS03.SPL = Actual Werewolf Transformation Spell
+UBSFOS04.SPL = Shapeshifts Natural Form Spell
+UBSFOS05.ITM = Lvl 1 Werewolf Claw
+UBSFOS06.ITM = Lvl 6 Werewolf Claw
+UBSFOS07.ITM = Lvl 12 Werewolf Claw
+UBSFOS08.ITM = Lvl 18 Werewolf Claw
+UBSFOS09.SPL = <50% HP BERSERKING EFFECT SPELL
+UBSFOS10.SPL =  BERSERKING 1 TURN / NO SPELLS EFFECT SPELL
+UBSFOS11.SPL = AP_ 10% Chance to turn Werewolf SPELL
+UBSFOS12.SPL = 10% Chance to turn Werewolf SPELL
+UBSFOS13.SPL = Aktive turn Werewolf SPELL
+UBSFOS14.SPL = ATTACK NEAREST CREATURE FOR 2 TURNS (BLOODLUST)
+UBSFOS15.SPL = Moon Dust gained on lvl 1
+UBSFOS16.SPL = Moon Melody gained on lvl 5
+UBSFOS17.SPL = AP_ Protection from UBSFOS12.SPL gain on lvl12
+UBSFOS18.SPL = AP_ Give Holy Symbol SPELL
+UBSFOS19.ITM = Holy Symbol of Selûne
+UBSFOS20.BAM = Holy Symbol of Selûne Description Bam
+UBSFOS21.BAM = Holy Symbol of Selûne Paper Doll Bam
+UBSFOS22.BAM = Moon Dust Bam
+UBSFOS23.BAM = Moon Melody Bam
+UBSFOSAC.BAM = Moon Dust Book Bam
+UBSFOSXC.BAM = Moon Melody Book Bam

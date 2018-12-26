@@ -1,0 +1,158 @@
+BACKUP ~SilverFur/backup~ // So WeiDU can uninstall
+AUTHOR ~Mod Forum: http://www.shsforums.net/topic/56166-the-silver-fur-of-selne-a-werewolf-priest-kit/ /~ // Contact address displayed if installation fails
+README ~SilverFur/readme_silver_fur.pdf~ // Shows readme file
+
+LANGUAGE ~English~  ~english~ ~SilverFur/translations/english/ubsfos.tra~
+LANGUAGE ~Deutsch~  ~german~  ~SilverFur/translations/german/ubsfos.tra~
+
+BEGIN 
+~ SILVER FUR OF SELUNE ~                                                  // Name of the main component
+
+// Internal name of the kit
+ADD_KIT ~UBsfos~
+
+// Appended to CLASWEAP.2da
+  ~UBsfos                0           0           1           1           0           1           0           0~
+
+// Appended column-wise to WEAPPROF.2da
+  ~UBsfos 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 1 1 0 0 1 1 1 0 0 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+     
+// Appended to ABCLASRQ.2da
+  ~UBsfos                0      0      0      0       9       0~
+
+// Appended to ABCLSMOD.2da
+  ~UBsfos                0       0       0      0       0       0~
+
+// Appended to ABDCDSRQ.2da
+  ~UBsfos                0      0     0       0       17      0~
+
+// Appended to ABDCSCRQ.2da
+  ~UBsfos                0      0     0       0       15       0~
+
+// Appended to ALIGNMNT.2da
+  ~UBsfos                0       0       0       1       0       0       1       1       0~
+
+// Appended to DUALCLAS.2da
+  ~UBsfos                1       0       1       1       0       1~
+
+// Path to my CLAB.2da file 
+  ~SilverFur/files/UBsfos0.2da~
+
+// PC races and classes allowed to use this kit, from KITTABLE.2da
+  ~K_C_H K_C_D K_C_HL K_C_G K_C_HO K_C_E K_C_HE~
+
+// Usability flags, added to the end of the KITLIST.2da entry
+  ~0x00010000        3~
+
+// HLA table to use; see LUABBR.2da
+  ~Cl0~
+
+// List of starting equipment for PCs starting in ToB. Appended column-wise to 25STWEAP.2da
+  ~CHAN09 * HELM07 BAG26 RING06 RING31 * BOOT01 AMUL20 BRAC10 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 HAMM07 * STAF08~
+
+// Lower, mixed, and help kit names and descriptions, added to KITLIST.2da 
+  SAY @1
+  SAY @2
+  SAY @3
+
+// Copy stuff over to override
+
+
+COPY ~SilverFur/files/UBSFOS4.SPL~ ~override~
+ SAY NAME1@4// unidentified name for items OR spell name
+ SAY UNIDENTIFIED_DESC @4 // unidentified description for items, spell description for spells
+
+COPY ~SilverFur/files/UBSFOS5.ITM~ ~override~
+ SAY NAME1@5// unidentified name for items OR spell name
+ SAY NAME2 @5 // identified name for items; not used for spells
+ SAY UNIDENTIFIED_DESC@5 // unidentified description for items, spell description for spells
+ SAY DESC @5 // identified description for items, unused for spells
+
+COPY ~SilverFur/files/UBSFOS6.ITM~ ~override~
+ SAY NAME1@5// unidentified name for items OR spell name
+ SAY NAME2 @5 // identified name for items; not used for spells
+ SAY UNIDENTIFIED_DESC@5 // unidentified description for items, spell description for spells
+ SAY DESC @5 // identified description for items, unused for spells
+
+COPY ~SilverFur/files/UBSFOS7.ITM~ ~override~
+ SAY NAME1@5// unidentified name for items OR spell name
+ SAY NAME2 @5 // identified name for items; not used for spells
+ SAY UNIDENTIFIED_DESC@5 // unidentified description for items, spell description for spells
+ SAY DESC @5 // identified description for items, unused for spells
+
+COPY ~SilverFur/files/UBSFOS8.ITM~ ~override~
+ SAY NAME1@5// unidentified name for items OR spell name
+ SAY NAME2 @5 // identified name for items; not used for spells
+ SAY UNIDENTIFIED_DESC@5 // unidentified description for items, spell description for spells
+ SAY DESC @5 // identified description for items, unused for spells
+
+COPY ~SilverFur/files/UBSFOS9.SPL~ ~override~
+  SAY 0xfe @6
+
+COPY ~SilverFur/files/UBSFOSA.SPL~ ~override~
+  SAY 0x24e @6
+
+COPY ~SilverFur/files/UBSFOSE.SPL~ ~override~
+  SAY 0x15e @7
+
+COPY ~SilverFur/files/UBSFOSD.SPL~ ~override~
+ SAY NAME1@8// unidentified name for items OR spell name
+ SAY UNIDENTIFIED_DESC @8 // unidentified description for items, spell description for spells
+
+COPY ~SilverFur/files/UBSFOSF.SPL~ ~override~
+ SAY NAME1@9// unidentified name for items OR spell name
+ SAY UNIDENTIFIED_DESC @10 // unidentified description for items, spell description for spells
+
+COPY ~SilverFur/files/UBSFOSG.SPL~ ~override~
+ SAY NAME1@11// unidentified name for items OR spell name
+ SAY UNIDENTIFIED_DESC @12 // unidentified description for items, spell description for spells
+
+
+COPY ~SilverFur/files/UBSFOSJ.ITM~ ~override~
+ SAY NAME1@13// unidentified name for items OR spell name
+ SAY NAME2 @13 // identified name for items; not used for spells
+ SAY UNIDENTIFIED_DESC @14 // unidentified description for items, spell description for spells
+ SAY DESC @14 // identified description for items, unused for spells
+
+COPY ~SilverFur/files/UBSFOSI.SPL~ ~override~
+  SAY 0x9e @15
+
+COPY ~SilverFur/files2~ ~override~
+
+//If Divine Remix v3+  is installed prior to the bear walker kit this will fix the spell progression
+ACTION_IF ((FILE_EXISTS_IN_GAME ~cdnegpp.spl~) AND (FILE_EXISTS ~Divine_Remix/lib/macro_reindex_clab.tph~)) THEN BEGIN
+
+  INCLUDE ~Divine_Remix/lib/extra_regexp_vars.tph~
+  INCLUDE ~Divine_Remix/lib/macro_remove_blank_lines_from_eof.tph~
+  INCLUDE ~Divine_Remix/lib/macro_reindex_clab.tph~
+  INCLUDE ~Divine_Remix/lib/macro_spell_remove_good.tph~
+  INCLUDE ~Divine_Remix/lib/macro_add_cleric_spells.tph~
+
+  COPY_EXISTING ~UBsfos00.2da~ ~override~
+        LAUNCH_PATCH_MACRO ~remove_blank_lines_from_eof~ // purge lines
+        LAUNCH_PATCH_MACRO ~add_cleric_spells~ // add generic ranger spells
+        LAUNCH_PATCH_MACRO ~spell_remove_good~
+        LAUNCH_PATCH_MACRO ~reindex_clab~ // re-index lines
+        BUT_ONLY_IF_IT_CHANGES
+
+END
+
+//////////Add Variable Script for the Silver Fur Kit////////////////////
+////////////////////////////////////////////////////////////////////////
+CLEAR_IDS_MAP                                                                                                    // Reload .IDS Files
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~AR0602.are~) THEN BEGIN                                                          // Check for BG2 Start
+EXTEND_TOP ~AR0602.BCS~   ~SilverFur/files/UBsfos.baf~                                                          // BG2 Start
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~AR7200.are~) THEN BEGIN                                                          // Check for BGT
+   EXTEND_TOP ~AR0015.BCS~   ~SilverFur/files/UBsfos.baf~                                                       // BGT Start
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~FW2600.are~) THEN BEGIN                                                          // Check for TuTu
+   EXTEND_TOP ~FW2600.BCS~   ~SilverFur/files/UBsfos.baf~                                                       // TuTu Start
+END
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~mel01.cre~) THEN BEGIN                                                           // Check for TOB
+   EXTEND_TOP ~AR4000.BCS~   ~SilverFur/files/UBsfos.baf~                                                       // TOB Start
+END

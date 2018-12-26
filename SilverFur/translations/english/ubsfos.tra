@@ -1,0 +1,90 @@
+@1 = ~silver fur of selûne~
+@2 = ~Silver Fur of Selûne~
+@3 = ~SILVER FUR OF SELÛNE: Those who contract one of the more malicious forms of lycanthropy often turn to Selûne, the patron goddess of good lycanthropes, to ask for guidance and help in their struggle against the evil that lurks within them.
+Silver Furs of Selûne are clerics who receive special spells from their goddess, the Moonmaiden, to help them control their lycanthrophic forms, in this case that of a werewolf.
+
+Advantages:
+- At level 1 gains the ability to shapeshift into a werewolf.
+- Gains special spells aimed at controlling the lycanthrophic condition. (Moon Dust, Moon Melody)
+
+Disadvantages:
+- Cannot wear armor greater than studded leather.
+- Shifting into werewolf form, between levels 1 to 11, will cause the character to go into a Blood Frenzy for one turn. While in Blood Frenzy, the character gains +2 movement speed, as well as a 4-point AC penalty, and will try to ravage every living creature in sight, no matter if friend or foe.
+- Shifting into werewolf form, between levels 12 to 17, will cause the character to go Berserk for one turn. While berserking, the character won't be able to talk, cast spells or use innate abilities. This will also cause total loss of character control while in combat.
+
+Werewolf Form:
+  Level 1:
+- STR +1 / DEX +1 / AC +1 / PHYSICAL RESIST 5% / Regenerates 1 HP every two rounds.
+- Transformation lasts until canceled.
+- Partial ability to talk and cast spells (85% casting failure - does not affect innate abilities).
+- Gains 1 additional attack per round.
+- Berserking if character's HP drop below 50%.
+- Natural claws are considered to be of +1 enchantment and deal 1d4 slashing damage.
+
+  Level 6:
+- STR +1 / DEX +1 / AC +2 / PHYSICAL RESIST 10% / Regenerates 1 HP every round.
+- Transformation lasts until canceled.
+- Partial ability to talk and cast spells (85% casting failure - does not affect innate abilities).
+- Gains 1 additional attack per round.
+- Berserking if character's HP drop below 50%.
+- Natural claws are considered to be of +2 enchantment and deal 1d4+1 slashing damage.
+
+  Level 12:
+- STR +2 / DEX +1 / AC +2 / PHYSICAL RESIST 15% / Regenerates 1 HP every 3 seconds.
+- Transformation lasts until canceled.
+- Partial ability to talk and cast spells (65% casting failure - does not affect innate abilities).
+- Gains 2 additional attacks per round.
+- Berserking if character's HP drop below 25%.
+- Natural claws are considered to be of +3 enchantment and deal 2d3 slashing damage.
+
+  Level 18:
+- STR +2 / DEX +2 / AC +3 / PHYSICAL RESIST 20% / Regenerates 1 HP every second.
+- Transformation lasts until canceled.
+- Partial ability to talk and cast spells (65% casting failure - does not affect innate abilities).
+- Gains 2 additional attacks per round.
+- Berserking if character's HP drop below 10%.
+- Natural claws are considered to be of +4 enchantment and deal 2d4+2 slashing damage.~
+@4 = ~Shapeshifts Natural Form~
+@5 = ~Claw~
+@6 = ~Berserking~
+@7 = ~Blood Frenzy~
+@8 = ~Shapeshifts Werewolf~
+@9 = ~Moon Dust~
+@10 = ~Moon Dust (Evocation)
+Level: 1
+Sphere: Sun
+Range: 10 yards 
+Duration: 3 rounds
+Casting Time: 3 
+Area of Effect: Target
+Saving Throw: None
+
+The priest conjures an amount of silvery glowing dust around the target. The Moon Dust will quickly settle on the target's skin and stay there for 3 rounds or until dispelled.
+While covered by the cool dust, the target is instilled with a feeling of serenity, and becomes immune to fear and moral failure and also gains resistance to fire. (10% fire resistance at level 1, which will double for every 6 levels, up to 80% fire resistance at level 18.)
+If the target is a Silver Fur of Selûne, the Moon Dust will also protect from berserking effects caused by lycanthropy.~
+@11 = ~Moon Melody~
+@12 = ~Moon Melody (Enchantment/Charm) 
+Level: 3
+Sphere: Chaos
+Range:  Caster 
+Duration: 3 rounds
+Casting Time: 3
+Area of Effect: Caster
+Saving Throw: None
+
+To invoke this spell, the priest has to start whistling the Moon Melody. After a short while the melody will magically carry on by itself, being heard only by the priest.
+For the duration of the spell, whenever the priest feels rage, confusion or any other harmful mental influence, he can concentrate on the Moon Melody and his thoughts will instantly become clear and calm again.
+Due to this, the priest will be rendered immune to Suggestion, Charm, Domination and Confusion spells, for 3 rounds or until the spell is dispelled.  
+This spell also protects the target from Blood Frenzy and Berserking Rage, instilled by lycanthropy.~
+@13 = ~Holy Symbol of Selûne~
+@14 = ~Only those most worthy and devoted servants of the Moonmaiden are granted these powerful holy symbols. 
+
+STATISTICS:
+
+   Grants an additional 6th and 7th level spell.
+   5% Magic Resistance while worn
+   +1 to Strength while worn
+
+Usable By:
+Good Clerics~
+@15 = ~You have reached a new level of experience and the Moonmaiden has given you her Holy Symbol for your loyal service.~

@@ -1,0 +1,90 @@
+@1 = ~silberpelz der selûne~
+@2 = ~Silberpelz der Selûne~
+@3 = ~SILBERPELZ DER SELÛNE: Jene, welche eine der bösartigeren Formen von Lykanthropie in sich tragen, wenden sich in ihrem Versuch das Böse in sich zu bändigen oft an Selûne, die Göttin aller gutartigen Lycanthropen.
+Silberpelze der Selûne sind Priester welche von ihrer Göttin, der Mondmaid, spezielle Zauber empfangen um ihre Lykanthropie zu kontrollieren.
+
+Vorteile:
+- Kann sich ab Stufe 1 in einen Werwolf verwandeln.
+- Erhält spezielle Zauber zur Kontrolle der Lykanthropie. (Mondstaub, Mondmelodie)
+
+Nachteile:
+- Kann maximal beschlagene Lederrüstungen verwenden.
+- Die Verwandlung in einen Werwolf, zwischen Stufe 1 bis 11, lässt den Charakter für ein Minute in einen Blutrausch fallen. Während des Blutrausches erhält der Charakter +2 Bewegungstempo, so wie einen 4 Punkte Malus auf die Rüstungsklasse, und wird versuchen alles und jeden in Sichtweite zu zerfleischen.
+- Die Verwandlung in einen Werwolf, zwischen Stufe 12 bis 17, lässt den Charakter für ein Minute in einen Berserker-Rausch fallen. Während des Berserker-Rausches kann der Charakter weder Sprechen, Zaubern noch Spezialfähigkeiten einsetzen. Darüber hinaus wird er während des Kampfes jegliche Kontrolle über sich verlieren.
+
+Werwolf-Form:
+  Stufe 1:
+- STR +1 / GES +1 / RK +1 / Phys. Resistenz 5% / Regeneriert 1 Trefferpunkt alle zwei Runden.
+- Verwandlung hält bis zur gewollten Rückverwandlung an.
+- Zauber haben eine 85% Chance fehlzuschlagen. (Gilt nicht für Spezialfähigkeiten.)
+- Erhält einen zusätzlichen Angriff pro Runde.
+- Berserker-Rausch wenn die maximalen Trefferpunkte unter 50% sinken. (Kompletter Kontrollverlust während des Kampfes.)
+- Klauen gelten als +1 verzaubert und können 1d4 Klingen-Schaden zufügen.
+
+  Stufe 6:
+- STR +1 / GES +1 / RK +2 / Phys. Resistenz 10% / Regeneriert 1 Trefferpunkt pro Runde.
+- Verwandlung hält bis zur gewollten Rückverwandlung an.
+- Zauber haben eine 85% Chance fehlzuschlagen. (Gilt nicht für Spezialfähigkeiten.)
+- Erhält einen zusätzlichen Angriff pro Runde.
+- Berserker-Rausch wenn die maximalen Trefferpunkte unter 50% sinken. (Kompletter Kontrollverlust während des Kampfes.)
+- Klauen gelten als +2 verzaubert und können 1d4+1 Klingen-Schaden zufügen.
+
+  Stufe 12:
+- STR +2 / GES +1 / RK +2 / Phys. Resistenz 15% / Regeneriert 1 Trefferpunkt alle 3 Sekunden.
+- Verwandlung hält bis zur gewollten Rückverwandlung an.
+- Zauber haben eine 65% Chance fehlzuschlagen. (Gilt nicht für Spezialfähigkeiten.)
+- Erhält zwei zusätzliche Angriffe pro Runde.
+- Berserker-Rausch wenn die maximalen Trefferpunkte unter 25% sinken. (Kompletter Kontrollverlust während des Kampfes.)
+- Klauen gelten als +3 verzaubert und können 2d3 Klingen-Schaden zufügen.
+
+  Stufe 18:
+- STR +2 / GES +2 / RK +3 / Phys. Resistenz 20% / Regeneriert 1 Trefferpunkt pro Sekunde.
+- Verwandlung hält bis zur gewollten Rückverwandlung an.
+- Zauber haben eine 65% Chance fehlzuschlagen. (Gilt nicht für Spezialfähigkeiten.)
+- Erhält zwei zusätzliche Angriffe pro Runde.
+- Berserker-Rausch wenn die maximalen Trefferpunkte unter 10% sinken. (Kompletter Kontrollverlust während des Kampfes.)
+- Klauen gelten als +4 verzaubert und können 2d4+2 Klingen-Schaden zufügen.~
+@4 = ~Natürliche Form des Gestaltwandlers~
+@5 = ~Klaue~
+@6 = ~Berserker-Rausch~
+@7 = ~Blutrausch~
+@8 = ~Gestaltwandlung Werwolf~
+@9 = ~Mondstaub~
+@10 = ~Mondstaub (Hervorrufung)
+Stufe: 1
+Sphäre: Sonne
+Reichweite: 10 Meter
+Dauer: 3 Runden
+Zauberzeit: 3 
+Wirkungsbereich: Ziel
+Rettungswurf: Keiner
+
+Der Priester lässt eine gewisse Menge an silbernem Staub um das Ziel herum entstehen. Dieser Mondstaub wird sich sofort darauf auf der Haut des Ziels ablagern und dort für 3 Runden, oder bis der Zauber gebannt wird, bleiben.
+Während das Ziel mit dem kühlen Staub bedeckt ist, wird es ein Gefühl innerer Ruhe verspüren und immun gegenüber Angst und Moralversagen werden, so wie auch eine gewisse Resistenz gegen Feuer erhalten. (10% Feuerresistenz auf Stufe 1, welche sich alle 6 Stufen verdoppelt, bis zu einem Maximum von 80% auf Stufe 18.)
+Sollte das Ziel ein Silberpelz der Selûne sein, wird der Mondstaub es auch vor dem durch die Lykanthropie ausgelösten Berserker-Rausch schützen.~
+@11 = ~Mondmelodie~
+@12 = ~Mondmelodie (Verstärkung/Bezauberung) 
+Level: 3
+Sphäre: Chaos
+Reichweite: Zaubernder
+Dauer: 3 Runden
+Zauberzeit: 3 
+Wirkungsbereich: Zaubernder
+Rettungswurf: Keiner
+
+Um diesen Zauber zu beschwören, muss der Priester die Mondmelodie summen oder pfeifen. Nach kurzer Zeit, wird die Melodie sich auf magische Weise verselbstständigen und nur noch vom Priester gehört werden.
+Während der Dauer des Zaubers kann der Priester, wann immer er Zorn, Verwirrung oder einen anderen, schädlichen geistigen Einfluss verspürt, sich auf die Mondmelodie konzentrieren, und seine Gedanken werden sogleich wieder klar und ruhig.
+Dadurch wird der Priester während des Zaubers immun gegenüber Suggestion, Bezauberung, Beherrschung und Konfusion.
+Dieser Zauber schützt auch vor Blut- und Berserker-Rauschzuständen, welche durch Lykanthropie hervorgerufen werden.~
+@13 = ~Heiliges Symbol der Selûne~
+@14 = ~Nur die geachtetsten und hingebungsvollsten Diener der Mondmaid erhalten diese mächtigen, heiligen Symbole.
+
+EIGENSCHAFTEN:
+
+   Gewährt einen zusätzlichen Zauber des 6ten und 7ten Grads.
+   Magieresistenz: 5%
+   Stärke: +1
+
+Kann nur verwendet werden von
+Guten Priestern~
+@15 = ~Ihr habt eine neue Stufe der Erfahrung erreicht und die Mondmaid hat euch für eure loyalen Dienste ihr heiliges Symbol gewährt.~
