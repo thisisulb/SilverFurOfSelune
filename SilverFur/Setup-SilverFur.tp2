@@ -1,6 +1,7 @@
 BACKUP ~SilverFur/backup~ // So WeiDU can uninstall
 AUTHOR ~Mod Forum: http://www.shsforums.net/topic/56166-the-silver-fur-of-selne-a-werewolf-priest-kit/ /~ // Contact address displayed if installation fails
 README ~SilverFur/readme_silver_fur.pdf~ // Shows readme file
+VERSION ~1.2~
 
 LANGUAGE ~English~  ~english~ ~SilverFur/translations/english/ubsfos.tra~
 LANGUAGE ~Deutsch~  ~german~  ~SilverFur/translations/german/ubsfos.tra~
